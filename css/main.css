@@ -1,0 +1,100 @@
+
+html{
+    background-color: white;
+    z-index: -2;
+}
+body{
+    font-family: 'Minimo-Regular';
+    font-size: 16px;
+    z-index: 0;
+    overflow: hidden;
+}
+#accessory{
+    z-index: 10;
+    color: sienna;
+    background-color: goldenrod;
+    font-size: 30em;
+    width: 100%;
+    height: 2000px;
+    margin: 30px auto;
+}
+header{
+    opacity: 0.35;
+}
+h1{
+    display: none;
+    position: fixed;
+    left: 7px;
+    top: 0px;
+    font-size: 15em;
+    font-family: 'Minimo-Bold';
+    mix-blend-mode: difference;
+    z-index: 5;
+}
+
+section h2, article{
+    display: inline;
+}
+
+nav{
+    font-family: 'Minimo-Bold';
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    font-size: 3em;
+    z-index: 5;
+}
+
+ul{
+    list-style: none;
+    padding: 5px;
+    display: inline;
+}
+.letter2:before{
+    content: '\02003';
+}
+.scrape{
+    position: static;
+    top: 60px;
+    left: 0px;
+    font-family: 'Minimo-light';
+    color: rebeccapurple;
+    width: 100%;
+    margin: 0;
+    line-height: 33px;
+    overflow: hidden;
+}
+.number{
+    font-family: "Minimo-Bold";
+    /* color: red; */
+    font-size: 1.5em;
+}
+.idea{
+    font-family: "Minimo-Bold";
+    font-size: 2em;
+    text-shadow: 0 0 5px burlywood;
+}
+
+/* .scrape:hover{
+    animation-name: skeew;
+    animation-duration: 250ms;
+} */
+
+@keyframes skeew{
+    from{
+        transform: skew(0deg);
+    }
+    to{
+        transform: skew(100deg);
+    }
+}
+
+
+@keyframes tiltaway{
+    from{
+        transform: rotate3d(0);
+    }
+    to{
+        transform: rotate3d(0,1,0.5,3.142rad);
+    }
+}

@@ -3,8 +3,8 @@
 include ('vendor/autoload.php');
 
 function scrapeCL(){
-    
-    $client = \Symfony\Component\Panther\Client::createChromeClient();
+
+    $client = new \Goutte\Client();
     $crawler = $client->request('GET', 'https://en.wikipedia.org/wiki/Ideasthesia');
     $resultText = $crawler->filter('#bodyContent')->text();    
     return json_encode(Array('text' => $resultText));

@@ -4,9 +4,9 @@
 <head>
 <title>a scrape of me</title>
 
-<link href="font/minimo_regular/stylesheet.css" rel="stylesheet" />
-<link href="font/minimo_bold/stylesheet.css" rel="stylesheet"  />
-<link href="font/minimo_light/stylesheet.css" rel="stylesheet"  />
+<link href="font/minimo_regular_macroman/stylesheet.css" rel="stylesheet" />
+<link href="font/minimo_bold_macroman/stylesheet.css" rel="stylesheet"  />
+<link href="font/minimo_light_macroman/stylesheet.css" rel="stylesheet"  />
 <link rel="icon" type="image/png" href="img/score.svg" />
 <link href="css/main.css" rel="stylesheet" />
 </head>
